@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="105.0" prefWidth="631.0" BorderPane.alignment="CENTER" xmlns:fx="http://javafx.com/fxml" fx:controller="com.bmi.ai.controllers.ActionsController">
+    <children>
+        <Label layoutX="1100.0" layoutY="40.0" textFill="RED" fx:id="errorLabel" />
+        <Button layoutX="15.0" layoutY="31.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="250.0" text="Solve by BFS" onMouseClicked="#solveByBFS"/>
+        <Button layoutX="270.0" layoutY="31.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="250.0" text="Solve by DFS" onMouseClicked="#solveByDFS" />
+        <Button layoutX="525.0" layoutY="31.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="250.0" text="Solve by AStar Manhattan" onMouseClicked="#solveByAStarManhattan" />
+        <Button layoutX="780.0" layoutY="31.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="250.0" text="Solve by AStar Euclidean" onMouseClicked="#solveByAStarEuclidean" />
+    </children>
+</Pane>
